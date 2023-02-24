@@ -1,0 +1,4 @@
+февр. 24, 2023 3:00:12 PM task_2.programm main
+WARNING: Тестовое логирование
+февр. 24, 2023 3:00:12 PM task_2.programm main
+INFO: Тестовое логирование
