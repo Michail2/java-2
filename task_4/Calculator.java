@@ -21,7 +21,7 @@ public class Calculator {
             operand = scanner.nextInt();
         } else {
             System.out.println("Вы допустили ошибку при вводе числа. Попробуйте еще раз.");
-            scanner.next();//рекурсия
+            scanner.next();
             operand = nextInt();
         }
         return operand;
@@ -34,7 +34,7 @@ public class Calculator {
             operation = scanner.next().charAt(0);
         } else {
             System.out.println("Вы допустили ошибку при вводе операции. Попробуйте еще раз.");
-            scanner.next();//рекурсия
+            scanner.next();
             operation = getOperation();
         }
         return operation;
@@ -57,7 +57,7 @@ public class Calculator {
                 break;
             default:
                 System.out.println("Операция не распознана. Повторите ввод.");
-                result = calc(operand1, operand2, getOperation());//рекурсия
+                result = calc(operand1, operand2, getOperation());
         }
         return result;
     }
